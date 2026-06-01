@@ -1,0 +1,131 @@
+{
+  "crs_chem11": {
+    "id": "crs_chem11",
+    "title": "IB Chemistry — Higher Level",
+    "subject": "Chemistry",
+    "teacher": "Dr. Marwa El-Sayed",
+    "completion": 64,
+    "accent": "iris",
+    "description": "Build atomic-scale intuition across stoichiometry, periodicity, bonding, and energetics.",
+    "quadmesters": [
+      {
+        "id": "q1",
+        "label": "Quadmester 1",
+        "title": "Foundations of matter",
+        "completion": 100,
+        "units": [
+          {
+            "id": "u1",
+            "title": "Stoichiometry & quantitative chemistry",
+            "completion": 100,
+            "lessons": [
+              { "id": "les_chem11_u1l1", "title": "The mole concept", "durationMin": 30, "completion": 100 },
+              { "id": "les_chem11_u1l2", "title": "Empirical & molecular formulas", "durationMin": 35, "completion": 100 },
+              { "id": "les_chem11_u1l3", "title": "Solutions & concentration", "durationMin": 40, "completion": 100 }
+            ]
+          },
+          {
+            "id": "u2",
+            "title": "States of matter",
+            "completion": 100,
+            "lessons": [
+              { "id": "les_chem11_u2l1", "title": "Kinetic molecular theory", "durationMin": 30, "completion": 100 },
+              { "id": "les_chem11_u2l2", "title": "Gas laws", "durationMin": 35, "completion": 100 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "label": "Quadmester 2",
+        "title": "Atomic structure & periodicity",
+        "completion": 70,
+        "units": [
+          {
+            "id": "u3",
+            "title": "Atomic structure",
+            "completion": 100,
+            "lessons": [
+              { "id": "les_chem11_u3l1", "title": "Sub-atomic particles", "durationMin": 30, "completion": 100 },
+              { "id": "les_chem11_u3l2", "title": "Electron configuration", "durationMin": 40, "completion": 100 },
+              { "id": "les_chem11_u3l3", "title": "Ionisation energy", "durationMin": 35, "completion": 100 }
+            ]
+          },
+          {
+            "id": "u4",
+            "title": "Periodic trends",
+            "completion": 45,
+            "lessons": [
+              { "id": "les_chem11_u4l1", "title": "The periodic table", "durationMin": 30, "completion": 100 },
+              { "id": "les_chem11_u4l2", "title": "Periodic trends in reactivity", "durationMin": 35, "completion": 60 },
+              { "id": "les_chem11_u4l3", "title": "Group 1 & 17 chemistry", "durationMin": 40, "completion": 0 },
+              { "id": "les_chem11_u4l4", "title": "Lab: alkali metals", "durationMin": 60, "completion": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "label": "Quadmester 3",
+        "title": "Bonding & structure",
+        "completion": 20,
+        "units": [
+          {
+            "id": "u5",
+            "title": "Ionic & covalent bonding",
+            "completion": 40,
+            "lessons": [
+              { "id": "les_chem11_u5l1", "title": "Ionic bonding", "durationMin": 30, "completion": 100 },
+              { "id": "les_chem11_u5l2", "title": "Covalent bonding basics", "durationMin": 35, "completion": 20 },
+              { "id": "les_chem11_u5l3", "title": "Lewis structures", "durationMin": 40, "completion": 0 }
+            ]
+          },
+          {
+            "id": "u6",
+            "title": "Intermolecular forces",
+            "completion": 0,
+            "lessons": [
+              { "id": "les_chem11_u6l1", "title": "Hydrogen bonding", "durationMin": 30, "completion": 0 },
+              { "id": "les_chem11_u6l2", "title": "Van der Waals forces", "durationMin": 35, "completion": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "label": "Quadmester 4",
+        "title": "Energetics & kinetics",
+        "completion": 0,
+        "units": [
+          {
+            "id": "u7",
+            "title": "Enthalpy changes",
+            "completion": 0,
+            "lessons": [
+              { "id": "les_chem11_u7l1", "title": "Endothermic & exothermic", "durationMin": 30, "completion": 0 },
+              { "id": "les_chem11_u7l2", "title": "Hess's law", "durationMin": 40, "completion": 0 }
+            ]
+          },
+          {
+            "id": "u8",
+            "title": "Reaction kinetics",
+            "completion": 0,
+            "lessons": [
+              { "id": "les_chem11_u8l1", "title": "Collision theory", "durationMin": 30, "completion": 0 },
+              { "id": "les_chem11_u8l2", "title": "Rate laws", "durationMin": 45, "completion": 0 }
+            ]
+          }
+        ]
+      }
+    ],
+    "pacing": [
+      { "week": "W1", "required": 5, "actual": 6 },
+      { "week": "W2", "required": 10, "actual": 12 },
+      { "week": "W3", "required": 15, "actual": 17 },
+      { "week": "W4", "required": 22, "actual": 23 },
+      { "week": "W5", "required": 28, "actual": 28 },
+      { "week": "W6", "required": 34, "actual": 31 },
+      { "week": "W7", "required": 40, "actual": 31 }
+    ]
+  }
+}

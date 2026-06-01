@@ -1,0 +1,104 @@
+{
+  "les_chem11_u4l2": {
+    "id": "les_chem11_u4l2",
+    "courseId": "crs_chem11",
+    "courseTitle": "IB Chemistry HL",
+    "unitId": "u4",
+    "unitTitle": "Periodic trends",
+    "quadmester": "Quadmester 2",
+    "title": "Periodic trends in reactivity",
+    "subtitle": "Why does cesium explode in water but lithium just fizzes?",
+    "teacher": "Dr. Marwa El-Sayed",
+    "durationMin": 35,
+    "completion": 60,
+    "prev": { "id": "les_chem11_u4l1", "title": "The periodic table" },
+    "next": { "id": "les_chem11_u4l3", "title": "Group 1 & 17 chemistry" },
+    "siblings": [
+      { "id": "les_chem11_u4l1", "title": "The periodic table", "completion": 100, "durationMin": 30 },
+      { "id": "les_chem11_u4l2", "title": "Periodic trends in reactivity", "completion": 60, "durationMin": 35 },
+      { "id": "les_chem11_u4l3", "title": "Group 1 & 17 chemistry", "completion": 0, "durationMin": 40 },
+      { "id": "les_chem11_u4l4", "title": "Lab: alkali metals", "completion": 0, "durationMin": 60 }
+    ],
+    "activities": [
+      {
+        "id": "act_1",
+        "type": "minds-on",
+        "title": "Minds on — a quick puzzle",
+        "completion": 100,
+        "body": "Cesium violently explodes when dropped into water, while lithium reacts much more gently. Both are in Group 1 — so what's different?",
+        "prompt": "Which property best explains the difference in reactivity between cesium and lithium?",
+        "choices": [
+          "Cesium has a larger atomic mass",
+          "Cesium's outer electron is further from the nucleus and easier to lose",
+          "Cesium is a softer metal",
+          "Cesium contains more neutrons"
+        ],
+        "answerIndex": 1,
+        "rationale": "Reactivity in Group 1 increases down the group because the outer electron is more shielded and farther from the nuclear pull, so it's lost more easily."
+      },
+      {
+        "id": "act_2",
+        "type": "reading",
+        "title": "Reading — trends across a period",
+        "completion": 80,
+        "body": "Across a period (left → right), the number of protons increases while the outer electrons stay in the same shell. The effective nuclear charge grows, so atoms get smaller and ionisation energy rises. Down a group, additional shells push outer electrons further from the nucleus, weakening the pull — atoms get larger and ionisation energy falls. Together these two trends explain a huge amount of chemistry.",
+        "estimatedMin": 6
+      },
+      {
+        "id": "act_3",
+        "type": "video",
+        "title": "Demonstration — alkali metals in water",
+        "completion": 30,
+        "videoEmbed": "https://www.youtube-nocookie.com/embed/m55kgyApYrY",
+        "estimatedMin": 4
+      },
+      {
+        "id": "act_4",
+        "type": "check",
+        "title": "Check for understanding",
+        "completion": 0,
+        "prompt": "Which atom has the highest first ionisation energy?",
+        "choices": ["Sodium (Na)", "Caesium (Cs)", "Helium (He)", "Iodine (I)"],
+        "answerIndex": 2,
+        "rationale": "Helium has the highest first ionisation energy because its outer electrons are pulled by the nuclear charge with no shielding from inner shells."
+      },
+      {
+        "id": "act_5",
+        "type": "reflection",
+        "title": "Reflection",
+        "completion": 0,
+        "prompt": "In your own words, why does atomic radius decrease across a period? Three sentences."
+      }
+    ]
+  },
+  "les_chem11_u4l1": {
+    "id": "les_chem11_u4l1",
+    "courseId": "crs_chem11",
+    "courseTitle": "IB Chemistry HL",
+    "unitId": "u4",
+    "unitTitle": "Periodic trends",
+    "quadmester": "Quadmester 2",
+    "title": "The periodic table",
+    "subtitle": "A map of every kind of matter.",
+    "teacher": "Dr. Marwa El-Sayed",
+    "durationMin": 30,
+    "completion": 100,
+    "prev": null,
+    "next": { "id": "les_chem11_u4l2", "title": "Periodic trends in reactivity" },
+    "siblings": [
+      { "id": "les_chem11_u4l1", "title": "The periodic table", "completion": 100, "durationMin": 30 },
+      { "id": "les_chem11_u4l2", "title": "Periodic trends in reactivity", "completion": 60, "durationMin": 35 },
+      { "id": "les_chem11_u4l3", "title": "Group 1 & 17 chemistry", "completion": 0, "durationMin": 40 },
+      { "id": "les_chem11_u4l4", "title": "Lab: alkali metals", "completion": 0, "durationMin": 60 }
+    ],
+    "activities": [
+      {
+        "id": "act_1",
+        "type": "reading",
+        "title": "Reading — the shape of the table",
+        "completion": 100,
+        "body": "The periodic table is arranged by increasing atomic number and grouped by electron configuration. Columns share chemistry; rows share shell structure."
+      }
+    ]
+  }
+}

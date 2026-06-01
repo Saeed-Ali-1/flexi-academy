@@ -1,0 +1,66 @@
+{
+  "admin": [
+    {
+      "id": "n_a_1",
+      "title": "Term 2 schedule released",
+      "body": "Your personalised timetable for Quadmester 2 is now available. Tap to review and confirm.",
+      "timeAgo": "12m",
+      "severity": "info",
+      "category": "Admin"
+    },
+    {
+      "id": "n_a_2",
+      "title": "Library access window extended",
+      "body": "The digital library is now open until 11pm on weekdays.",
+      "timeAgo": "2h",
+      "severity": "info",
+      "category": "Admin"
+    },
+    {
+      "id": "n_a_3",
+      "title": "Parent-teacher conferences",
+      "body": "Booking opens Friday at 9am. Slots fill quickly.",
+      "timeAgo": "1d",
+      "severity": "warning",
+      "category": "Admin"
+    }
+  ],
+  "courses": [
+    {
+      "id": "n_c_1",
+      "courseId": "crs_chem11",
+      "courseTitle": "IB Chemistry HL",
+      "title": "New lab report due Friday",
+      "body": "Dr. El-Sayed has assigned the titration write-up. Three pages, due 23:59.",
+      "timeAgo": "34m",
+      "severity": "warning"
+    },
+    {
+      "id": "n_c_2",
+      "courseId": "crs_eng11",
+      "courseTitle": "English Literature",
+      "title": "Feedback on your essay",
+      "body": "Ms. Tarek left detailed comments on your Macbeth analysis.",
+      "timeAgo": "3h",
+      "severity": "info"
+    },
+    {
+      "id": "n_c_3",
+      "courseId": "crs_math11",
+      "courseTitle": "Mathematics HL",
+      "title": "Quiz score: 92%",
+      "body": "Excellent work on the calculus quick-check.",
+      "timeAgo": "1d",
+      "severity": "success"
+    },
+    {
+      "id": "n_c_4",
+      "courseId": "crs_hist11",
+      "courseTitle": "World History",
+      "title": "New unit unlocked",
+      "body": "Quadmester 2: The Cold War is now available.",
+      "timeAgo": "2d",
+      "severity": "info"
+    }
+  ]
+}

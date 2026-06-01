@@ -1,0 +1,49 @@
+{
+  "year": "2026 — Grade 11",
+  "yearStart": "Sep 2025",
+  "yearEnd": "Jun 2026",
+  "weeksTotal": 40,
+  "weeksElapsed": 22,
+  "daysToFinalExam": 124,
+  "overallCompletion": 56,
+  "totalLessons": 336,
+  "completedLessons": 185,
+  "studyHoursThisWeek": 14.5,
+  "studyHoursTarget": 18,
+  "quadmesters": [
+    { "id": "q1", "label": "Quadmester 1", "title": "Foundations", "weeksRange": "W1–10", "completion": 100, "status": "done" },
+    { "id": "q2", "label": "Quadmester 2", "title": "Core concepts", "weeksRange": "W11–20", "completion": 78, "status": "active" },
+    { "id": "q3", "label": "Quadmester 3", "title": "Applications", "weeksRange": "W21–30", "completion": 22, "status": "upcoming" },
+    { "id": "q4", "label": "Quadmester 4", "title": "Synthesis & exams", "weeksRange": "W31–40", "completion": 0, "status": "future" }
+  ],
+  "courseLanes": [
+    { "courseId": "crs_chem11", "title": "Chemistry HL", "accent": "iris", "q": [100, 70, 20, 0] },
+    { "courseId": "crs_math11", "title": "Mathematics HL", "accent": "aurora", "q": [100, 82, 30, 0] },
+    { "courseId": "crs_eng11", "title": "English Literature", "accent": "amber", "q": [100, 45, 15, 0] },
+    { "courseId": "crs_hist11", "title": "World History", "accent": "iris", "q": [100, 25, 0, 0] },
+    { "courseId": "crs_bio11", "title": "Biology HL", "accent": "aurora", "q": [100, 60, 30, 0] },
+    { "courseId": "crs_phys11", "title": "Physics SL", "accent": "iris", "q": [100, 40, 10, 0] },
+    { "courseId": "crs_econ11", "title": "Economics", "accent": "amber", "q": [100, 65, 25, 0] },
+    { "courseId": "crs_arab11", "title": "Arabic Lang & Culture", "accent": "aurora", "q": [100, 90, 50, 0] }
+  ],
+  "milestones": [
+    { "id": "ms_1", "courseId": "crs_chem11", "courseTitle": "Chemistry HL", "title": "Lab report: titration", "type": "assessment", "dueLabel": "This Friday", "daysAway": 3, "weight": 15, "accent": "iris" },
+    { "id": "ms_2", "courseId": "crs_math11", "courseTitle": "Mathematics HL", "title": "Calculus mock exam", "type": "exam", "dueLabel": "Mon, Mar 9", "daysAway": 5, "weight": 20, "accent": "aurora" },
+    { "id": "ms_3", "courseId": "crs_eng11", "courseTitle": "English Literature", "title": "Macbeth essay (1500 words)", "type": "assignment", "dueLabel": "Mar 14", "daysAway": 10, "weight": 25, "accent": "amber" },
+    { "id": "ms_4", "courseId": "crs_phys11", "courseTitle": "Physics SL", "title": "SHM practical write-up", "type": "assessment", "dueLabel": "Mar 18", "daysAway": 14, "weight": 10, "accent": "iris" },
+    { "id": "ms_5", "courseId": "crs_hist11", "courseTitle": "World History", "title": "Cold War seminar presentation", "type": "presentation", "dueLabel": "Mar 22", "daysAway": 18, "weight": 15, "accent": "iris" },
+    { "id": "ms_6", "courseId": "crs_bio11", "courseTitle": "Biology HL", "title": "Photosynthesis quiz", "type": "quiz", "dueLabel": "Mar 26", "daysAway": 22, "weight": 5, "accent": "aurora" }
+  ],
+  "streak": {
+    "currentDays": 14,
+    "longestDays": 23,
+    "weeklyMinutesGoal": 1080,
+    "last30Days": [
+      45, 60, 0, 50, 75, 40, 30,
+      55, 80, 90, 65, 0, 45, 50,
+      75, 60, 55, 85, 70, 65, 50,
+      40, 0, 60, 90, 110, 75, 60,
+      80, 95
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "weeklyStudyMinutes": 870,
+    "weeklyStudyMinutesPrev": 740,
+    "weeklyStudyTarget": 1080,
+    "lessonsCompleted7d": 18,
+    "lessonsCompleted7dPrev": 14,
+    "avgScore": 87,
+    "avgScorePrev": 83,
+    "focusSessions7d": 9,
+    "focusSessionsPrev": 6
+  },
+  "timeSpentByDay": [
+    { "day": "Mon", "minutes": 95 },
+    { "day": "Tue", "minutes": 140 },
+    { "day": "Wed", "minutes": 80 },
+    { "day": "Thu", "minutes": 165 },
+    { "day": "Fri", "minutes": 110 },
+    { "day": "Sat", "minutes": 200 },
+    { "day": "Sun", "minutes": 80 }
+  ],
+  "velocity": [
+    { "week": "W16", "lessons": 9, "target": 12 },
+    { "week": "W17", "lessons": 11, "target": 12 },
+    { "week": "W18", "lessons": 13, "target": 12 },
+    { "week": "W19", "lessons": 10, "target": 12 },
+    { "week": "W20", "lessons": 14, "target": 12 },
+    { "week": "W21", "lessons": 16, "target": 12 },
+    { "week": "W22", "lessons": 18, "target": 12 }
+  ],
+  "subjectStrengths": [
+    { "subject": "Chemistry", "score": 88, "growth": "Solid mastery" },
+    { "subject": "Math", "score": 92, "growth": "Top of class" },
+    { "subject": "English", "score": 78, "growth": "Building" },
+    { "subject": "History", "score": 71, "growth": "Needs review" },
+    { "subject": "Biology", "score": 85, "growth": "Confident" },
+    { "subject": "Physics", "score": 74, "growth": "Building" },
+    { "subject": "Economics", "score": 89, "growth": "Confident" },
+    { "subject": "Arabic", "score": 95, "growth": "Top of class" }
+  ],
+  "activityBreakdown": [
+    { "type": "Reading", "minutes": 320, "percent": 37, "tone": "aurora" },
+    { "type": "Watch", "minutes": 195, "percent": 22, "tone": "amber" },
+    { "type": "Minds On", "minutes": 165, "percent": 19, "tone": "iris" },
+    { "type": "Check", "minutes": 115, "percent": 13, "tone": "iris" },
+    { "type": "Reflection", "minutes": 75, "percent": 9, "tone": "aurora" }
+  ],
+  "studyHeatmap": {
+    "rows": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "cols": ["6a", "9a", "12p", "3p", "6p", "9p"],
+    "matrix": [
+      [0, 1, 0, 2, 3, 2],
+      [0, 2, 1, 1, 3, 4],
+      [0, 1, 0, 2, 2, 3],
+      [1, 2, 1, 3, 4, 3],
+      [0, 0, 1, 2, 4, 4],
+      [2, 3, 2, 4, 3, 2],
+      [1, 2, 2, 1, 2, 1]
+    ]
+  },
+  "tips": [
+    {
+      "id": "t_1",
+      "tone": "aurora",
+      "title": "Your best window: Saturday mornings",
+      "body": "You complete 32% more activities on weekend mornings than weekday afternoons. Try moving harder work to that window."
+    },
+    {
+      "id": "t_2",
+      "tone": "amber",
+      "title": "History could use a re-read",
+      "body": "Your History scores have dipped below your other subjects. The Cold War seminar is in 18 days — schedule a 45-minute review."
+    },
+    {
+      "id": "t_3",
+      "tone": "iris",
+      "title": "Your focus sessions are paying off",
+      "body": "Lessons completed in focus mode score 11% higher on checks. Use it more for tough topics."
+    }
+  ]
+}
